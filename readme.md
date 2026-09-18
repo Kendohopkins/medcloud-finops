@@ -53,7 +53,6 @@ Add CloudWatch as a data source (Auth Provider: AWS SDK Default or a dedicated I
 - **Persistence and alerting**: confirmed findings are durably logged to DynamoDB (not just returned in the Lambda response) and that SNS delivers a matching summary email.
 
 ## Challenges & Troubleshooting
-## 🧗‍♂️ Troubleshooting & Engineering Resilience
 
 Building this project wasn't completely straightforward. I ran into several AWS and Terraform issues along the way and had to troubleshoot them using the AWS CLI, Terraform, and a lot of testing.
 
